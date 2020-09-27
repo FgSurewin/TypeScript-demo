@@ -1,11 +1,18 @@
 import React from "react";
-import { Button } from "antd";
+import Todo from "./views/todo";
 
 function App() {
 	return (
 		<div className='App'>
-			<h1>Welcome to React in TypeScript</h1>
-			<Button type='primary'>ADD</Button>
+			<h1
+				style={{
+					textAlign: "center",
+					marginBottom: "20px",
+				}}
+			>
+				Welcome to React in TypeScript
+			</h1>
+			<Todo />
 		</div>
 	);
 }
