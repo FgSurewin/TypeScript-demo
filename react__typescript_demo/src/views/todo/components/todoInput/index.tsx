@@ -25,7 +25,7 @@ const TodoInput = function () {
 		setValue("");
 	};
 	return (
-		<div id='todoInput'>
+		<div id="todoInput">
 			<Form onSubmitCapture={addItem}>
 				<Input
 					value={value}
@@ -33,7 +33,7 @@ const TodoInput = function () {
 						setValue(e.target.value)
 					}
 				/>
-				<Button type='primary' onClick={addItem}>
+				<Button type="primary" onClick={addItem}>
 					ADD
 				</Button>
 			</Form>
